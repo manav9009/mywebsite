@@ -17,3 +17,4 @@ function updateCart() {
   });
   document.getElementById("total").textContent = `Total: ₹${total}`;
 }
+ 

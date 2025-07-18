@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #ffb6c1;
+  background-color: hsl(113, 79%, 23%);
   padding: 20px;
   text-align: center;
   color: white;
@@ -38,7 +38,7 @@ header {
 }
 
 button {
-  background-color: #ff69b4;
+  background-color: #19d813;
   color: white;
   border: none;
   padding: 10px;
@@ -48,18 +48,18 @@ button {
 }
 
 button:hover {
-  background-color: #e457a0;
+  background-color: #f10d18;
 }
 
 .cart {
-  background: #fff0f5;
+  background: #f51808;
   padding: 20px;
   margin: 20px;
   border-radius: 10px;
 }
 
 footer {
-  background-color: #ffb6c1;
+  background-color: #15752a;
   text-align: center;
   padding: 10px;
   color: white;
