@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bloom Boutique 🌼</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌸 Bloom Boutique</h1>
+    <p>Your one-stop shop for fresh flowers!</p>
+  </header>
+
+  <main>
+    <section class="flowers">
+      <div class="flower-card">
+        <img src="https://i.imgur.com/LKXjC.jpg" alt="Rose">
+        <h2>Red Rose</h2>
+        <p>₹50 per flower</p>
+        <button onclick="addToCart('Red Rose', 50)">Add to Cart</button>
+      </div>
+      <div class="flower-card">
+        <img src="https://i.imgur.com/tN9GdvL.jpg" alt="Sunflower">
+        <h2>Sunflower</h2>
+        <p>₹40 per flower</p>
+        <button onclick="addToCart('Sunflower', 40)">Add to Cart</button>
+      </div>
+      <div class="flower-card">
+        <img src="https://i.imgur.com/XZzWbGj.jpg" alt="Tulip">
+        <h2>Tulip</h2>
+        <p>₹60 per flower</p>
+        <button onclick="addToCart('Tulip', 60)">Add to Cart</button>
+      </div>
+    </section>
+
+    <section class="cart">
+      <h2>🛒 Your Cart</h2>
+      <ul id="cart-list"></ul>
+      <p id="total">Total: ₹0</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Bloom Boutique. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
